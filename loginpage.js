@@ -6,7 +6,7 @@ const app=express();
 
 app.use(express.urlencoded({extended:true}));
 
-
+                                                      After you login your password and username data successfull shown in backend terminal it shows the data entered in backend
 
 app.get('/',(req,res)=>{
     res.sendFile(path.join(__dirname,'index.html'));
